@@ -32,7 +32,7 @@ const ProyectoFigura = ({ nombre = '-' }) => {
             <p className="text-tiny uppercase font-bold">{info.slogan}</p>
         </div>
         <div className="pt-4 pb-4 grid justify-center">
-            <Button onPress={onOpen} className="py-2 px-4 bg-blue-500 hover:bg-blue-400 text-white font-bold rounded-xl transition duration-300">Saber más</Button>
+            <Button onPress={onOpen} className="py-2 px-4 bg-marca-verdeoscuro hover:bg-marca-verdeoscuro_hover text-white font-bold rounded-xl transition duration-300">Saber más</Button>
             <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
                 <ModalContent>
                 {(onClose) => (
@@ -44,11 +44,8 @@ const ProyectoFigura = ({ nombre = '-' }) => {
                         <p>{info.tecnologias}</p>
                     </ModalBody>
                     <ModalFooter>
-                        <Button color="danger" onPress={onClose}>
-                        Close
-                        </Button>
-                        <Button color="primary" onPress={onClose}>
-                        Action
+                        <Button className="bg-red-500 hover:bg-red-400 text-white" onPress={onClose}>
+                        Cerrar
                         </Button>
                     </ModalFooter>
                     </>

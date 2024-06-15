@@ -3,9 +3,9 @@ import React from 'react'
 function contacto() {
     return(
         <>
-            <article>
+            <div>
                 <p>Contacto</p>
-            </article>
+            </div>
         </>
     )
 }
