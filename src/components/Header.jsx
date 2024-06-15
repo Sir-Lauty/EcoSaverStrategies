@@ -51,7 +51,7 @@ function Header() {
   return(
     <>
       <header className="relative bg-[url('../../img/mdzFondo.png')] bg-cover bg-center shadow-md min-h-96">
-        <div className="absolute inset-0 bg-black opacity-40"></div>
+        <div className="absolute inset-0 bg-black opacity-40"/>
         <div className="relative z-10 px-6 py-6">
           <div className="flex justify-between">
             <div>
@@ -59,10 +59,10 @@ function Header() {
               <p className="text-white text-xl">Por la eficiencia eléctrica</p>
             </div>
             <nav className="flex space-x-6 items-start">
-              <button><Link to="/" className="text-gray-300 text-3xl hover:text-white ansition duration-300">Inicio</Link></button>
-              <button><Link to="/proyectos" className="text-gray-300 text-3xl hover:text-white transition duration-300">Proyectos</Link></button>
-              <button><Link to="/equipo" className="text-gray-300 text-3xl hover:text-white transition duration-300">Equipo</Link></button>
-              <button><Link to="/contacto" className="text-gray-300 text-3xl hover:text-white transition duration-300">Contacto</Link></button>
+              <button><Link to="/" className="text-gray-300 text-xl hover:text-white ansition duration-300">Inicio</Link></button>
+              <button><Link to="/proyectos" className="text-gray-300 text-xl hover:text-white transition duration-300">Proyectos</Link></button>
+              <button><Link to="/equipo" className="text-gray-300 text-xl hover:text-white transition duration-300">Equipo</Link></button>
+              <button><Link to="/contacto" className="text-gray-300 text-xl hover:text-white transition duration-300">Contacto</Link></button>
             </nav>
           </div>
           <div>

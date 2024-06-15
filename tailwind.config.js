@@ -17,7 +17,8 @@ module.exports = {
           verdeoscuro: '#56877D',
           verdeoscuro_hover: '#76aaa0',
           verde: '#8CCC81',
-          verdeclaro: '#BADE57'
+          verdeclaro: '#BADE57',
+          verdeclarito: '#e2f3dd'
         }
       }
     },
