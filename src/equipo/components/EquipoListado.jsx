@@ -4,119 +4,64 @@ const EquipoListado = ({equipo =''}) => {
     const EquipoInformacion = {
         'DiseñoGrafico' : [
             {
-                "Edad": 25,
-                "Rol": "Arg",
-                "Nombre": "Franco Petroli",
-                "Correo": 'forexample@gmail.com',
-                "Linkedin": ""
-            },
-            {
-                "Edad": 27,
-                "Rol": "Arg",
-                "Nombre": "Roberto Ramírez",
-                "Correo": 'forexample@gmail.com',
-                "Linkedin": ""
+                "Edad": 17,
+                "Rol": "Líder",
+                "Nombre": "Alejo Schverdfinger ",
+                "Correo": 'alejoelrasta2007@gmail.com',
+                "Linkedin": "https://www.linkedin.com/in/alejo-schverdfinger-00783b30a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "Insta": "alejo_00011DG"
             }
         ],
         'Software' : [
             {
-                "Edad": 32,
-                "Rol": "Arg",
-                "Nombre": "Federico Rassmusen",
-                "Correo": 'forexample@gmail.com',
-                "Linkedin": ""
+                "Edad": 18,
+                "Rol": "Líder & Front/Back-End Devolper",
+                "Nombre": "Fernando Guevara",
+                "Correo": 'agu.guevara2006@gmail.com',
+                "Linkedin": "https://www.linkedin.com/in/fernando-guevara-28264330a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "Insta": ""
             },
             {
-                "Edad": 33,
-                "Rol": "Arg",
-                "Nombre": "Pier Barrios",
-                "Correo": 'forexample@gmail.com',
-                "Linkedin": ""
+                "Edad": 17,
+                "Rol": "Front-End Devolper",
+                "Nombre": "Lautaro Caylá",
+                "Correo": 'caylalautaro@gmail.com',
+                "Linkedin": "https://www.linkedin.com/in/lautaro-caylá-84677727b/",
+                "Insta": "sir_lauty"
             },
             {
-                "Edad": 25,
-                "Rol": "Chi",
-                "Nombre": "Thomas Galdames",
-                "Correo": 'forexample@gmail.com',
-                "Linkedin": ""
-            },
-            {
-                "Edad": 26,
-                "Rol": "Arg",
-                "Nombre": "Lucas Arce",
-                "Correo": 'forexample@gmail.com',
-                "Linkedin": ""
-            },
-            {
-                "Edad": 22,
-                "Rol": "Arg",
-                "Nombre": "Manuel Guill\u00e9n",
-                "Correo": 'forexample@gmail.com',
-                "Linkedin": ""
+                "Edad": 17,
+                "Rol": "Front-End Devolper",
+                "Nombre": "Nehuen Arenas",
+                "Correo": 'nehuenarenas567@gmail.com',
+                "Linkedin": "https://www.linkedin.com/in/nehuen-arenas-ortubia-38635b277/",
+                "Insta": ""
             }
         ],
         'Comercial' : [
             {
-                "Edad": 26,
-                "Rol": "Uru",
-                "Nombre": "Nicol\u00e1s Fern\u00e1ndez",
-                "Correo": 'forexample@gmail.com',
-                "Linkedin": ""
-            },
-            {
-                "Edad": 22,
-                "Rol": "Arg",
-                "Nombre": "Bruno Leyes",
-                "Correo": 'forexample@gmail.com',
-                "Linkedin": ""
-            },
-            {
-                "Edad": 21,
-                "Rol": "Uru",
-                "Nombre": "Vicente Poggi",
-                "Correo": 'forexample@gmail.com',
-                "Linkedin": ""
-            },
-            {
-                "Edad": 22,
-                "Rol": "Arg",
-                "Nombre": "Mariano Santiago",
-                "Correo": 'forexample@gmail.com',
-                "Linkedin": ""
-            },
-            {
-                "Edad": 23,
-                "Rol": "Arg",
-                "Nombre": "Tom\u00e1s Pozzo",
-                "Correo": 'forexample@gmail.com',
-                "Linkedin": ""
+                "Edad": 17,
+                "Rol": "Líder",
+                "Nombre": "Eunice Montiveros",
+                "Correo": 'eunimontiveros@gmail.com',
+                "Linkedin": "https://www.linkedin.com/in/eunice-naomi-montiveros-22926b30a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "Insta": "euni_monti_"
             }
         ],
         'Hardware' : [
             {
-                "Edad": 26,
-                "Rol": "Arg",
-                "Nombre": "Juan Bautista Cejas",
-                "Correo": 'forexample@gmail.com',
-                "Linkedin": ""
-            },
-            {
-                "Edad": 22,
-                "Rol": "Arg",
-                "Nombre": "Daniel Barrea",
-                "Correo": 'forexample@gmail.com',
-                "Linkedin": ""
-            },
-            {
-                "Edad": 22,
-                "Rol": "Arg",
-                "Nombre": "Nahuel Ulariaga",
-                "Correo": 'forexample@gmail.com',
-                "Linkedin": ""
+                "Edad": 18,
+                "Rol": "Líder",
+                "Nombre": "Francisco Quinteros",
+                "Correo": 'quintefran44@gmail.com',
+                "Linkedin": "https://www.linkedin.com/in/francisco-quinteros-57258430a",
+                "Insta": "quinte_fran"
             }
         ]
     };
+    
     const info = EquipoInformacion[equipo];
+
     return(
         <>
             <h3 className="text-3xl text-marca-verdeoscuro">{equipo}</h3>
@@ -132,17 +77,25 @@ const EquipoListado = ({equipo =''}) => {
                         </tr>
                     </thead>
                     <tbody>
-                        {info.map((intg)=>(
-                            <tr className='' key={intg.Num}>
-                                <td className='py-2 text-tiny uppercase font-bold text-center bg-marca-verdeclarito'>{intg.Edad} años</td>
-                                <td className='py-2 text-tiny uppercase font-bold text-center'>{intg.Nombre}</td>
-                                <td className='py-2 text-tiny uppercase font-bold text-center bg-marca-verdeclarito'>{intg.Rol}</td>
-                                <td className='py-2 text-tiny uppercase font-bold flex justify-center'>
-                                    <a href="https://www.linkedin.com/groups/14465076/" target="_blank">
-                                        <img src="../../../img/logos/LogosLinkedinIcon.png" className="w-4"/>
+                        {info.map((intg , index)=>(
+                            <tr key={index}>
+                                <td className='py-2 text-tiny font-bold text-center bg-marca-verdeclarito'>{intg.Edad} años</td>
+                                <td className='py-2 text-tiny font-bold text-center'>{intg.Nombre}</td>
+                                <td className='py-2 text-tiny font-bold text-center bg-marca-verdeclarito'>{intg.Rol}</td>
+                                <td className='py-2 text-tiny font-bold flex justify-evenly'>
+                                    <a href={intg.Linkedin} target="_blank">
+                                        <img src="../../../img/logos/LogosLinkedinIcon.png" className="w-4 shadow-md"/>
                                     </a>
+                                    {intg.Insta != '' &&
+                                        <a href={'https://www.instagram.com/' + intg.Insta} target="_blank">
+                                            <img src="../../../img/logos/LogosInstagramIconBlack.png" className="w-4 shadow-md"/>
+                                        </a> ||
+                                        <a>
+                                            <img className="w-4"/>
+                                        </a>
+                                    }
                                 </td>
-                                <td className='py-2 text-tiny uppercase font-bold text-center bg-marca-verdeclarito'>{intg.Correo}</td>
+                                <td className='py-2 text-tiny font-bold text-center bg-marca-verdeclarito'>{intg.Correo}</td>
                             </tr>
                         ))}
                     </tbody>
