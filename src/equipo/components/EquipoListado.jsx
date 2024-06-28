@@ -56,6 +56,14 @@ const EquipoListado = ({equipo =''}) => {
                 "Correo": 'quintefran44@gmail.com',
                 "Linkedin": "https://www.linkedin.com/in/francisco-quinteros-57258430a",
                 "Insta": "quinte_fran"
+            },
+            {
+                "Edad": 18,
+                "Rol": "Programador",
+                "Nombre": "Nicolás Sanchez",
+                "Correo": 'navarronicolas248@gmail.com',
+                "Linkedin": "https://www.linkedin.com/in/nicol%C3%A1s-sanchez-194551257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "Insta": "niconavarro_07"
             }
         ]
     };

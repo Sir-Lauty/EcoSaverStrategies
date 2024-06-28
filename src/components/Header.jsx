@@ -53,10 +53,10 @@ function Header() {
       <header className="relative bg-[url('../../img/mdzFondo.png')] bg-cover bg-center shadow-md min-h-96">
         <div className="absolute inset-0 bg-black opacity-40"/>
         <div className="relative z-10 px-6 py-6">
-          <div className="flex justify-between">
+          <div className="grid items-center justify-center md:flex md:justify-between">
             <div>
               <h1 className="text-white text-4xl font-bold">EcoSavers Strategies</h1>
-              <p className="text-white text-xl">Por la eficiencia eléctrica</p>
+              <p className="text-white text-xl text-center md:text  -left">Por la eficiencia eléctrica</p>
             </div>
             <nav className="flex space-x-6 items-start">
               <button><Link to="/" className="text-gray-300 text-xl hover:text-white ansition duration-300">Inicio</Link></button>
