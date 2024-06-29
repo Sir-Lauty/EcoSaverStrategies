@@ -8,15 +8,15 @@ function Footer(){
                 <h4>Contactanos:</h4>
                 <div className="grid mt-1">
                     <div className='flex items-center'>
-                        <img className='w-7 mr-1' src="../../img/logos/MaterialSymbolsLocationOn.png"></img>
+                        <img className='w-7 mr-1' src="../img/logos/MaterialSymbolsLocationOn.png"></img>
                         <p>Patricias Argentinas 56 - Maipú, Mendoza</p>
                     </div>
                     <div className='flex items-center'>
-                        <img className='w-7 mr-1' src="../../img/logos/MaterialSymbolsCallSharp.png"></img>
+                        <img className='w-7 mr-1' src="../img/logos/MaterialSymbolsCallSharp.png"></img>
                         <p>+54 9 261 xxx-xxxx</p>
                     </div>
                     <div className='flex items-center'>
-                        <img className='w-7 mr-1' src="../../img/logos/MaterialSymbolsMail.png"></img>
+                        <img className='w-7 mr-1' src="../img/logos/MaterialSymbolsMail.png"></img>
                         <p>EcoSaverStrategies@gmail.com</p>
                     </div>
                 </div>
