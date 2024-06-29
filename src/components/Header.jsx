@@ -44,7 +44,7 @@ function Header() {
     seccion = (
     <>
       <div className='pt-40'>
-        <p className='pt-2 text-white text-4xl'>¡Contactanos!</p>
+        <p className='pt-2 text-white text-4xl'>Contactanos</p>
       </div>
     </>);
   }
