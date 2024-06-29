@@ -13,7 +13,7 @@ export const CuadroInformacionHome = ({ nombre = '' , clase = '' }) => {
     };
 
     const data = CuadroInfo[nombre];
-    const srcImg = '../../../img/' + nombre + '.jpg';
+    const srcImg = '../../0img/' + nombre + '.jpg';
     
     const clases = 'w-full bg-white rounded-xl shadow-lg flex items-center space-x-4 mb-4' + clase;
 
