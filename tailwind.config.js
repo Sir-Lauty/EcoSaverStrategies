@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'mdz-fondo': "url('/src/img/mdzFondo.jpg')",
+      },
       colors: {
         marca: {
           marron: '#4D433D',

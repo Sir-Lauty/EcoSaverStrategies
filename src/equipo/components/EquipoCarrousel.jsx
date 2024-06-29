@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 
 const images = [
-  '../../../img/equipo/arg-campeon.jpg',
-  '../../../img/equipo/bilardo-champagne.jpg',
-  '../../../img/equipo/random-bullshit-go.jpg',
-  '../../../img/equipo/ratoncito.jpg',
+  '../../src/img/equipo/arg-campeon.jpg',
+  '../../src/img/equipo/bilardo-champagne.jpg',
+  '../../src/img/equipo/random-bullshit-go.jpg',
+  '../../src/img/equipo/ratoncito.jpg',
 ];
 
 const Carousel = () => {
