@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from 'react';
+import ArgCampeon from '../../img/equipo/arg-campeon.jpg';
+import BilardoChampagne from '../../img/equipo/bilardo-champagne.jpg';
+import RandomBullshitGo from '../../img//equipo/random-bullshit-go.jpg';
+import Ratoncito from '../../img/equipo/ratoncito.jpg';
 
 const images = [
-  '../img/equipo/arg-campeon.jpg',
-  '../img/equipo/bilardo-champagne.jpg',
-  '../img/equipo/random-bullshit-go.jpg',
-  '../img/equipo/ratoncito.jpg',
+  ArgCampeon,
+  BilardoChampagne,
+  RandomBullshitGo,
+  Ratoncito,
 ];
 
 const Carousel = () => {
