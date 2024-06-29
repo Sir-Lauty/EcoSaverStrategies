@@ -50,7 +50,7 @@ function Header() {
   }
   return(
     <>
-      <header className="relative bg-[url('../0img/mdzFondo.jpg')] bg-cover bg-center shadow-md min-h-96">
+      <header className="relative bg-[url('../img/mdzFondo.jpg')] bg-cover bg-center shadow-md min-h-96">
         <div className="absolute inset-0 bg-black opacity-40"/>
         <div className="relative z-10 px-6 py-6">
           <div className="grid items-center justify-center md:flex md:justify-between">
