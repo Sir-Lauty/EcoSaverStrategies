@@ -2,8 +2,6 @@ import React from 'react';
 import { Outlet, Link, useLocation } from "react-router-dom";
 import Footer from './footer.jsx';
 import Fondo from '../img/mdzFondo.jpg';
-import presentacion from '../img/Presentacion.jpg';
-import sobrenosotros from '../img/SobreNosotros.jpg';
 import DoctorStockImg from '../img/proyectos/DoctorStock.png';
 import SensARinclusiveImg from '../img/proyectos/SensARinclusive.png';
 import LogosConectadosMendozaFutura from '../img/logos/LogosConectadosMendozaFutura.png';
@@ -63,7 +61,7 @@ function Header() {
   }
   return(
     <>
-      <header className="relative bg-[url('../img/mdzFondo.jpg')] bg-cover bg-center shadow-md min-h-96">
+      <header className="relative bg-cover bg-center shadow-md min-h-96" style={{ backgroundImage: `url(${Fondo})` }}>
         <div className="absolute inset-0 bg-black opacity-40"/>
         <div className="relative z-10 px-6 py-6">
           <div className="grid items-center justify-center md:flex md:justify-between">
