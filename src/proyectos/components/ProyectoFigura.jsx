@@ -20,7 +20,7 @@ const ProyectoFigura = ({ nombre = '-' }) => {
     };
 
     const info = ProyectoInformacion[nombre];
-    const srcImg = '../src/img/proyectos/' + nombre + '.png';
+    const srcImg = '../img/proyectos/' + nombre + '.png';
 
   return (
     <div className="flex flex-col relative shadow-medium rounded-xl">

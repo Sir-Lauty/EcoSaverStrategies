@@ -2,18 +2,18 @@ import React from 'react';
 import { Outlet, Link, useLocation } from "react-router-dom";
 import Footer from './footer.jsx';
 import Fondo from '../img/mdzFondo.jpg';
-import presentacion from '../img/Presentacion.jpg'
-import sobrenosotros from '../img/SobreNosotros.jpg'
-import DoctorStockImg from '../img/proyectos/DoctorStock.png'
-import SensARinclusiveImg from '../img/proyectos/SensARinclusive.png'
-import LogosConectadosMendozaFutura from '../img/logos/LogosConectadosMendozaFutura.png'
-import LogosInstagram from '../img/logos/LogosInstagram.png'
-import LogosInstagramIcon from '../img/logos/LogosInstagramIcon.png'
-import LogosLinkedin from '../img/logos/LogosLinkedin.png'
-import LogosLinkedinIcon from '../img/logos/LogosLinkedinIcon.png'
-import MaterialSymbolsCallSharp from '../img/logos/MaterialSymbolsCallSharp.png'
-import MaterialSymbolsLocationOn from '../img/logos/MaterialSymbolsLocationOn.png'
-import MaterialSymbolsMail from '../img/logos/MaterialSymbolsMail.png'
+import presentacion from '../img/Presentacion.jpg';
+import sobrenosotros from '../img/SobreNosotros.jpg';
+import DoctorStockImg from '../img/proyectos/DoctorStock.png';
+import SensARinclusiveImg from '../img/proyectos/SensARinclusive.png';
+import LogosConectadosMendozaFutura from '../img/logos/LogosConectadosMendozaFutura.png';
+import LogosInstagram from '../img/logos/LogosInstagram.png';
+import LogosInstagramIcon from '../img/logos/LogosInstagramIcon.png';
+import LogosLinkedin from '../img/logos/LogosLinkedin.png';
+import LogosLinkedinIcon from '../img/logos/LogosLinkedinIcon.png';
+import MaterialSymbolsCallSharp from '../img/logos/MaterialSymbolsCallSharp.png';
+import MaterialSymbolsLocationOn from '../img/logos/MaterialSymbolsLocationOn.png';
+import MaterialSymbolsMail from '../img/logos/MaterialSymbolsMail.png';
 
 function Header() {
   const location = useLocation();
