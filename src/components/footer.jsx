@@ -9,9 +9,9 @@ import MaterialSymbolsMail from '../img/logos/MaterialSymbolsMail.png';
 function Footer(){
     return(
     <>   
-        <footer className='flex items-center justify-between bg-marca-gris text-white pb-4 px-6 mt-10'>
+        <footer className='grid md:flex items-center justify-between bg-marca-gris text-white pb-4 px-6 mt-10'>
             <div>
-                <h4>Contactanos:</h4>
+                <h4 className="text-center md:text-left">Contactanos:</h4>
                 <div className="grid mt-1">
                     <div className='flex items-center'>
                         <img className='w-7 mr-1' src={MaterialSymbolsLocationOn}></img>
@@ -27,32 +27,32 @@ function Footer(){
                     </div>
                 </div>
             </div>
-            <div className="flex justify-between">
-                <div className="mr-12">
-                    <h4>Seguinos en nuestras redes</h4>
-                    <div className="grid justify-items-center mt-1">
+            <div className="grid md:flex md:justify-between">
+                <div className="md:mr-12">
+                    <h4 className="text-center mb-2 md:text-left md:mb-0">Seguinos en nuestras redes</h4>
+                    <div className="flex justify-around md:grid md:justify-items-center md:mt-1">
                         <div>
-                            <a className="text-white text-lg no-underline" href="https://www.instagram.com/" target="_blank">
+                            <a className="text-white text-lg md:no-underline" href="https://www.instagram.com/" target="_blank">
                                 <img className="w-24" src={LogosInstagram} alt="Instagram"></img>
                             </a>
                         </div>
-                        <div className='mt-2'>
-                            <a className="text-white text-lg no-underline" href="https://www.linkedin.com/groups/14465076/" target="_blank">
+                        <div className='md:mt-2'>
+                            <a className="text-white text-lg md:no-underline" href="https://www.linkedin.com/groups/14465076/" target="_blank">
                                 <img className="w-24" src={LogosLinkedin} alt="LinkedIn"></img>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <h4>Mendoza Futura</h4>
-                    <div className="grid justify-items-center mt-1">
+                    <h4 className="text-center mb-2 md:text-left md:mb-0">Mendoza Futura</h4>
+                    <div className="flex justify-around md:grid md:justify-items-center md:mt-1">
                         <div>
-                            <a className="text-white text-lg no-underline" href="https://www.instagram.com/mendozafutura.comunidad/" target="_blank">
+                            <a className="text-white text-lg md:no-underline" href="https://www.instagram.com/mendozafutura.comunidad/" target="_blank">
                                 <img className="w-24" src={LogosInstagram} alt="Instagram"></img>
                             </a>
                         </div>
                         <div className='mt-2'>
-                            <a className="text-white text-lg no-underline" href="https://www.mendoza.gov.ar/economia/mendoza-futura-2024/" target="_blank">
+                            <a className="text-white text-lg md:no-underline" href="https://www.mendoza.gov.ar/economia/mendoza-futura-2024/" target="_blank">
                                 <img className="w-24" src= {LogosConectadosMendozaFutura} alt="Conectados por Mendoza Futura"></img>
                             </a>
                         </div>

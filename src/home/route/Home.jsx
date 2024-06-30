@@ -1,6 +1,5 @@
-import React from 'react'
-import { CuadroInformacionHome } from '../components/CuadroInformacionHome'
-
+import React from 'react';
+import { CuadroInformacionHome } from '../components/CuadroInformacionHome';
 function home() {
     return(
         <>

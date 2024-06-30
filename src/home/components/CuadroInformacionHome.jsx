@@ -18,17 +18,17 @@ export const CuadroInformacionHome = ({ nombre = '' , clase = '' }) => {
 
     const data = CuadroInfo[nombre];
     
-    const clases = 'w-full bg-white rounded-xl shadow-lg flex items-center space-x-4 mb-4' + clase;
+    const clases = 'w-full bg-white rounded-xl shadow-lg grid md:flex md:items-center md:space-x-4 md:mb-4' + clase;
 
     return(
         <>
             <div className={clases}>
                 <div className='shrink-0'>
-                    <img className='h-96 rounded-tl-3xl rounded-br-3xl' alt='Energia Solar en Mendoza' src={data.srcimg}></img>
+                    <img className='w-100% md:w-72 lg:w-96 rounded-tl-3xl rounded-br-3xl' alt='Energia Solar en Mendoza' src={data.srcimg}></img>
                 </div>
                 <div>
-                    <h3 className='text-5xl font-medium text-marca-verdeoscuro'>{data.titulo}</h3>
-                    <p className='text-2xl text-slate-500'>{data.info}</p>
+                    <h3 className='text-4xl lg:text-5xl font-medium text-marca-verdeoscuro'>{data.titulo}</h3>
+                    <p className='text-md sm:text-xl text-2xl text-slate-500'>{data.info}</p>
                 </div>
             </div>
         </>
